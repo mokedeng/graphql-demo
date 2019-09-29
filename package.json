@@ -1,0 +1,25 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hello": "nodemon hello.js",
+    "baseType": "nodemon baseType.js",
+    "mutation": "nodemon mutation.js",
+    "middleware": "nodemon middleware.js",
+    "ConstructingTypes": "nodemon ConstructingTypes.js",
+    "db": "nodemon db.js"
+  },
+  "keywords": ["graphql", "express", "mysql"],
+  "author": "denyan7373@163.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.2"
+  }
+}

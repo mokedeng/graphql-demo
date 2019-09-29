@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 访问：http://localhost:3000/index.html -->
+   <button onclick="getData()">获取数据</button>
+</body>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+    function getData() {
+        const query = `
+            query Account($username: String, $city: String) {
+                account(username: $username){
+                    name,
+                    age,
+                    sex,
+                    department,
+                    salary(city: $city)
+                }
+            }
+        `
+
+        const variables = {username: '李四', city: '北京'}
+
+        axios.post('/graphql', {
+            query: query,
+            variables: variables,
+        })
+        .then(function (response) {
+            console.log(response);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+
+        // fetch('/graphql', {
+        //     method: 'POST',
+        //     headers: {
+        //         'Content-Type': 'application/json',
+        //         'Accept': 'application/json'
+        //     },
+        //     body: JSON.stringify({
+        //         query: query,
+        //         variables: variables
+        //     })
+        // }).then(res => res.json)
+        // .then(json => {
+        //     console.log(json)
+        // }).catch(res => {
+        //     console.log(res)
+        // })
+    }
+</script>
+
+</html>
