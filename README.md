@@ -1,7 +1,7 @@
 # graphql-demo
 这是一个利用express+mysql，实现graphql增改改查的简单demo
 
-本代码可B站上搜索关键字：2019GraphQL查询语言入门到精通，观看配套的视频，链接如下：
+本代码可在B站上搜索关键字：2019GraphQL查询语言入门到精通，观看配套的视频，链接如下：
 
 https://m.bilibili.com/video/av60894957.html?p=1&share_source=weixin_moments&share_medium=ipad&bbid=ZE473AEAA5743F604A60970BFB780A4AD605&ts=1569600787&from=timeline&isappinstalled=0
 
