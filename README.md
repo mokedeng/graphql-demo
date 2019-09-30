@@ -5,6 +5,11 @@
 
 https://m.bilibili.com/video/av60894957.html?p=1&share_source=weixin_moments&share_medium=ipad&bbid=ZE473AEAA5743F604A60970BFB780A4AD605&ts=1569600787&from=timeline&isappinstalled=0
 
+
+配套文档地址：
+https://blog.csdn.net/Fishmann/article/details/89609959
+
+
 npm install 
 
 npm run XX.js(XX为对应的js文件名)
