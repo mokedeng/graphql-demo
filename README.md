@@ -8,6 +8,7 @@ https://m.bilibili.com/video/av60894957.html?p=1&share_source=weixin_moments&sha
 
 配套文档地址：
 https://blog.csdn.net/Fishmann/article/details/89609959
+https://zhuanlan.zhihu.com/p/65356266
 
 
 npm install 
